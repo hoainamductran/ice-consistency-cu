@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Your own server",
             "server": "http://localhost",
-            "serverInstance": "BC150",
+            "serverInstance": "BC160",
             "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",

@@ -90,8 +90,7 @@ codeunit 59998 "ICE Consistency CU"
     local procedure CU12Subscriber(var TempGLEntryBuf: Record "G/L Entry" temporary; var GenJournalLine: Record "Gen. Journal Line"; var BalanceCheckAmount: Decimal; var BalanceCheckAmount2: Decimal; var BalanceCheckAddCurrAmount: Decimal; var BalanceCheckAddCurrAmount2: Decimal; var NextEntryNo: Integer; var TotalAmount: Decimal; var TotalAddCurrAmount: Decimal)
     begin
         BalanceCheckAddCurrAmount := 0;
-        BalanceCheckAmount2 := 0;
-        Error(StrSubstNo('BalanceCheckAddCurrAmount: %1, BalanceCheckAmount2: %2', BalanceCheckAddCurrAmount, BalanceCheckAmount2));
+        BalanceCheckAddCurrAmount2 := 0;
     end;
 
     var
